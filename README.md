@@ -15,7 +15,14 @@
 </p>
 
 ---
+## 📱 Screenshots
 
+<p align="center">
+  <img src="screenshots/main_menu.png" width="200"/>
+  <img src="screenshots/scan_scene.png" width="200"/>
+  <img src="screenshots/quiz_scene.png" width="200"/>
+  <img src="screenshots/stats_scene.png" width="200"/>
+</p>
 ## Table of Contents
 
 - [Overview](#overview)
