@@ -18,10 +18,10 @@
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="screenshots/main_menu.png" width="200"/>
-  <img src="screenshots/scan_scene.png" width="200"/>
-  <img src="screenshots/quiz_scene.png" width="200"/>
-  <img src="screenshots/stats_scene.png" width="200"/>
+  <img src="main_menu.png" width="200"/>
+  <img src="scan_scene.png" width="200"/>
+  <img src="quiz_scene.png" width="200"/>
+  <img src="stats_scene.png" width="200"/>
 </p>
 ## Table of Contents
 
