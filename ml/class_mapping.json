@@ -1,0 +1,278 @@
+{
+  "0": {
+    "index": 0,
+    "folder_name": "character_1_ka",
+    "label": "ka",
+    "type": "character"
+  },
+  "1": {
+    "index": 1,
+    "folder_name": "character_2_kha",
+    "label": "kha",
+    "type": "character"
+  },
+  "2": {
+    "index": 2,
+    "folder_name": "character_3_ga",
+    "label": "ga",
+    "type": "character"
+  },
+  "3": {
+    "index": 3,
+    "folder_name": "character_4_gha",
+    "label": "gha",
+    "type": "character"
+  },
+  "4": {
+    "index": 4,
+    "folder_name": "character_5_kna",
+    "label": "kna",
+    "type": "character"
+  },
+  "5": {
+    "index": 5,
+    "folder_name": "character_6_cha",
+    "label": "cha",
+    "type": "character"
+  },
+  "6": {
+    "index": 6,
+    "folder_name": "character_7_chha",
+    "label": "chha",
+    "type": "character"
+  },
+  "7": {
+    "index": 7,
+    "folder_name": "character_8_ja",
+    "label": "ja",
+    "type": "character"
+  },
+  "8": {
+    "index": 8,
+    "folder_name": "character_9_jha",
+    "label": "jha",
+    "type": "character"
+  },
+  "9": {
+    "index": 9,
+    "folder_name": "character_10_yna",
+    "label": "yna",
+    "type": "character"
+  },
+  "10": {
+    "index": 10,
+    "folder_name": "character_11_taamatar",
+    "label": "taamatar",
+    "type": "character"
+  },
+  "11": {
+    "index": 11,
+    "folder_name": "character_12_thaa",
+    "label": "thaa",
+    "type": "character"
+  },
+  "12": {
+    "index": 12,
+    "folder_name": "character_13_daa",
+    "label": "daa",
+    "type": "character"
+  },
+  "13": {
+    "index": 13,
+    "folder_name": "character_14_dhaa",
+    "label": "dhaa",
+    "type": "character"
+  },
+  "14": {
+    "index": 14,
+    "folder_name": "character_15_adna",
+    "label": "adna",
+    "type": "character"
+  },
+  "15": {
+    "index": 15,
+    "folder_name": "character_16_tabala",
+    "label": "tabala",
+    "type": "character"
+  },
+  "16": {
+    "index": 16,
+    "folder_name": "character_17_tha",
+    "label": "tha",
+    "type": "character"
+  },
+  "17": {
+    "index": 17,
+    "folder_name": "character_18_da",
+    "label": "da",
+    "type": "character"
+  },
+  "18": {
+    "index": 18,
+    "folder_name": "character_19_dha",
+    "label": "dha",
+    "type": "character"
+  },
+  "19": {
+    "index": 19,
+    "folder_name": "character_20_na",
+    "label": "na",
+    "type": "character"
+  },
+  "20": {
+    "index": 20,
+    "folder_name": "character_21_pa",
+    "label": "pa",
+    "type": "character"
+  },
+  "21": {
+    "index": 21,
+    "folder_name": "character_22_pha",
+    "label": "pha",
+    "type": "character"
+  },
+  "22": {
+    "index": 22,
+    "folder_name": "character_23_ba",
+    "label": "ba",
+    "type": "character"
+  },
+  "23": {
+    "index": 23,
+    "folder_name": "character_24_bha",
+    "label": "bha",
+    "type": "character"
+  },
+  "24": {
+    "index": 24,
+    "folder_name": "character_25_ma",
+    "label": "ma",
+    "type": "character"
+  },
+  "25": {
+    "index": 25,
+    "folder_name": "character_26_yaw",
+    "label": "yaw",
+    "type": "character"
+  },
+  "26": {
+    "index": 26,
+    "folder_name": "character_27_ra",
+    "label": "ra",
+    "type": "character"
+  },
+  "27": {
+    "index": 27,
+    "folder_name": "character_28_la",
+    "label": "la",
+    "type": "character"
+  },
+  "28": {
+    "index": 28,
+    "folder_name": "character_29_waw",
+    "label": "waw",
+    "type": "character"
+  },
+  "29": {
+    "index": 29,
+    "folder_name": "character_30_motosaw",
+    "label": "motosaw",
+    "type": "character"
+  },
+  "30": {
+    "index": 30,
+    "folder_name": "character_31_petchiryakha",
+    "label": "petchiryakha",
+    "type": "character"
+  },
+  "31": {
+    "index": 31,
+    "folder_name": "character_32_patalosaw",
+    "label": "patalosaw",
+    "type": "character"
+  },
+  "32": {
+    "index": 32,
+    "folder_name": "character_33_ha",
+    "label": "ha",
+    "type": "character"
+  },
+  "33": {
+    "index": 33,
+    "folder_name": "character_34_chhya",
+    "label": "chhya",
+    "type": "character"
+  },
+  "34": {
+    "index": 34,
+    "folder_name": "character_35_tra",
+    "label": "tra",
+    "type": "character"
+  },
+  "35": {
+    "index": 35,
+    "folder_name": "character_36_gya",
+    "label": "gya",
+    "type": "character"
+  },
+  "36": {
+    "index": 36,
+    "folder_name": "digit_0",
+    "label": "digit_0",
+    "type": "digit"
+  },
+  "37": {
+    "index": 37,
+    "folder_name": "digit_1",
+    "label": "digit_1",
+    "type": "digit"
+  },
+  "38": {
+    "index": 38,
+    "folder_name": "digit_2",
+    "label": "digit_2",
+    "type": "digit"
+  },
+  "39": {
+    "index": 39,
+    "folder_name": "digit_3",
+    "label": "digit_3",
+    "type": "digit"
+  },
+  "40": {
+    "index": 40,
+    "folder_name": "digit_4",
+    "label": "digit_4",
+    "type": "digit"
+  },
+  "41": {
+    "index": 41,
+    "folder_name": "digit_5",
+    "label": "digit_5",
+    "type": "digit"
+  },
+  "42": {
+    "index": 42,
+    "folder_name": "digit_6",
+    "label": "digit_6",
+    "type": "digit"
+  },
+  "43": {
+    "index": 43,
+    "folder_name": "digit_7",
+    "label": "digit_7",
+    "type": "digit"
+  },
+  "44": {
+    "index": 44,
+    "folder_name": "digit_8",
+    "label": "digit_8",
+    "type": "digit"
+  },
+  "45": {
+    "index": 45,
+    "folder_name": "digit_9",
+    "label": "digit_9",
+    "type": "digit"
+  }
+}
