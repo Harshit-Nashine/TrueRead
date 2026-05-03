@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_31_sa
+  m_EditorClassIdentifier: 
+  modelIndex: 31
+  devanagariChar: "\u0938"
+  phoneticName: Sa
+  characterType: Consonant
+  word1Hindi: "\u0938\u0942\u0930\u091C"
+  word1Meaning: sun
+  word2Hindi: "\u0938\u093E\u0901\u092A"
+  word2Meaning: snake
+  charAudio: {fileID: 8300000, guid: 09d3b6d543ef74343a269bc8c74fe1b7, type: 3}
+  word1Audio: {fileID: 8300000, guid: 7a12a94a52b58f146960891c34f8fd2a, type: 3}
+  word2Audio: {fileID: 8300000, guid: 9a2befb756662b34aa5a1fcbc2f7cf1c, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: 2180c64933b2759429a5670c4e5045af,
+    type: 3}

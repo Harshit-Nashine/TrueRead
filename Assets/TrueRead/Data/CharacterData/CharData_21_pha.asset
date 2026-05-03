@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_21_pha
+  m_EditorClassIdentifier: 
+  modelIndex: 21
+  devanagariChar: "\u092B"
+  phoneticName: Pha
+  characterType: Consonant
+  word1Hindi: "\u092B\u0932"
+  word1Meaning: fruit
+  word2Hindi: "\u092B\u0942\u0932"
+  word2Meaning: flower
+  charAudio: {fileID: 8300000, guid: 35201eaced6408346bb72fa3b0b9244c, type: 3}
+  word1Audio: {fileID: 8300000, guid: 2ccee67b4e626e646ab0ca21b6b74062, type: 3}
+  word2Audio: {fileID: 8300000, guid: dfb8211ea59f51945a318a9796fa1f4d, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: fb543d00c694f774ea448a49dac477f5,
+    type: 3}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_45_09
+  m_EditorClassIdentifier: 
+  modelIndex: 45
+  devanagariChar: "\u096F"
+  phoneticName: Nine
+  characterType: Digit
+  word1Hindi: "\u0928\u094C"
+  word1Meaning: nine
+  word2Hindi: 
+  word2Meaning: 
+  charAudio: {fileID: 8300000, guid: ca8719b74b092914a83fd5b5fdf6764f, type: 3}
+  word1Audio: {fileID: 0}
+  word2Audio: {fileID: 0}
+  packagePrefab: {fileID: 7087123468538050278, guid: bfd56342e72eb4e47983ad4e4c6a1e65,
+    type: 3}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_18_dha
+  m_EditorClassIdentifier: 
+  modelIndex: 18
+  devanagariChar: "\u0927"
+  phoneticName: Dhaa
+  characterType: Consonant
+  word1Hindi: "\u0927\u0928"
+  word1Meaning: money
+  word2Hindi: "\u0927\u0928\u0941\u0937"
+  word2Meaning: bow and arrow
+  charAudio: {fileID: 8300000, guid: bf173460f0c774d419e97a098493c068, type: 3}
+  word1Audio: {fileID: 8300000, guid: 4e7992a0219cd0740954065c1b730c5b, type: 3}
+  word2Audio: {fileID: 8300000, guid: 63fbadea3f18bb042996ba259bdc4ac8, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: 436b1f48a8a9b674aa38a8bad6e21f4d,
+    type: 3}

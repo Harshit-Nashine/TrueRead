@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_25_ya
+  m_EditorClassIdentifier: 
+  modelIndex: 25
+  devanagariChar: "\u092F"
+  phoneticName: Ya
+  characterType: Consonant
+  word1Hindi: "\u092F\u091C\u094D\u091E"
+  word1Meaning: fire ritual
+  word2Hindi: "\u092F\u093E\u0924\u094D\u0930\u093E"
+  word2Meaning: travel
+  charAudio: {fileID: 8300000, guid: f9afdd39fdd54be499f9f7b2a6d88776, type: 3}
+  word1Audio: {fileID: 8300000, guid: d8fb2a9c3b1676d43b9a3b58acbc06ec, type: 3}
+  word2Audio: {fileID: 8300000, guid: 984e57903d6727b498835a008b70fdcc, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: f55ec880864844f4390b51e4ad1875dd,
+    type: 3}

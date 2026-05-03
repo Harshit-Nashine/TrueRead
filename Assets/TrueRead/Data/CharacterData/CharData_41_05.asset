@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_41_05
+  m_EditorClassIdentifier: 
+  modelIndex: 41
+  devanagariChar: "\u096B"
+  phoneticName: Five
+  characterType: Digit
+  word1Hindi: "\u092A\u093E\u0901\u091A"
+  word1Meaning: five
+  word2Hindi: 
+  word2Meaning: 
+  charAudio: {fileID: 8300000, guid: 79ed398e7f6ec644ab8ef03d554824db, type: 3}
+  word1Audio: {fileID: 0}
+  word2Audio: {fileID: 0}
+  packagePrefab: {fileID: 7087123468538050278, guid: ec82397b533e5b14ba56ea53a39d085e,
+    type: 3}

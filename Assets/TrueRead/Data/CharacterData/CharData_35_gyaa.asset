@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_35_gyaa
+  m_EditorClassIdentifier: 
+  modelIndex: 35
+  devanagariChar: "\u091C\u094D\u091E"
+  phoneticName: Gya
+  characterType: Consonant
+  word1Hindi: gyaan
+  word1Meaning: Knowledge
+  word2Hindi: 
+  word2Meaning: 
+  charAudio: {fileID: 8300000, guid: 8af0eb62aeaa50149b8743abc8b1c5f2, type: 3}
+  word1Audio: {fileID: 0}
+  word2Audio: {fileID: 0}
+  packagePrefab: {fileID: 7087123468538050278, guid: 0e2544520a95a9e4e8c1867fe8fd16e8,
+    type: 3}

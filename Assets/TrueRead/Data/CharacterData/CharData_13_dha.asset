@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_13_dha
+  m_EditorClassIdentifier: 
+  modelIndex: 13
+  devanagariChar: "\u0922"
+  phoneticName: Dha
+  characterType: Consonant
+  word1Hindi: "\u0922\u094B\u0932"
+  word1Meaning: drum
+  word2Hindi: "\u0922\u0915\u094D\u0915\u0928"
+  word2Meaning: lid
+  charAudio: {fileID: 8300000, guid: 92097d8a29d19004ab496e9caaccc53a, type: 3}
+  word1Audio: {fileID: 8300000, guid: 7949108c39e803645b0c835b1146b953, type: 3}
+  word2Audio: {fileID: 8300000, guid: 599de8d3c8b174549a2fb90ba4dcc3ad, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: 9f08062d99f83c642ac462bc23683198,
+    type: 3}

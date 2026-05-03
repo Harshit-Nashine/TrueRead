@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_05_cha
+  m_EditorClassIdentifier: 
+  modelIndex: 5
+  devanagariChar: "\u091A"
+  phoneticName: Cha
+  characterType: Consonant
+  word1Hindi: "\u091A\u092E\u094D\u092E\u091A"
+  word1Meaning: spoon
+  word2Hindi: "\u091A\u0936\u094D\u092E\u093E"
+  word2Meaning: spectacles
+  charAudio: {fileID: 8300000, guid: 616e4c384ed20394284c57693a4fb964, type: 3}
+  word1Audio: {fileID: 8300000, guid: 3d3350e8901ece049b33ac209d8b9830, type: 3}
+  word2Audio: {fileID: 8300000, guid: c250939e9aae1e94c871a4ee85a36903, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: 7cf98dbe3a146eb42bc9ccf4e09fe4d9,
+    type: 3}

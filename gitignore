@@ -1,0 +1,180 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# AksharLens .gitignore
+# Python · TensorFlow · ONNX · Unity 2022.3 LTS · Android Build
+# ═══════════════════════════════════════════════════════════════════════════════
+
+
+# ── Dataset (never commit — too large, potentially licensed) ──────────────────
+**/TrueRead_Dataset/
+**/dataset/
+**/data/
+**/*.zip
+# Keep the class mapping (small JSON, version-controlled)
+!ml/class_mapping.json
+
+
+# ── Trained Model Binaries (commit only to Git LFS if at all) ─────────────────
+# ONNX — can be large; commit via LFS or link from Releases
+*.onnx
+# TFLite — mobile model; commit via LFS or link from Releases
+*.tflite
+# Keras checkpoints — large, intermediate
+*.keras
+*.h5
+# TensorFlow SavedModel directories
+saved_model/
+**/best_trueread*.keras
+
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# pytest
+.pytest_cache/
+.cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+# ── Unity ─────────────────────────────────────────────────────────────────────
+# Generated folders — Unity rebuilds these
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Unity asset database (auto-generated)
+*.pidb.meta
+*.pdb.meta
+
+# Unity VS/Rider generated project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+
+# Unity crash reports
+sysinfo.txt
+Crashes/
+crashlytics-build.properties
+
+# Asset import caches (can be regenerated)
+*.asset.meta
+# KEEP: .meta files for actual scripts and prefabs (Unity needs them)
+# KEEP: Assets/**/*.meta — Unity tracks these in version control
+
+# Unity Package Manager cache
+/[Pp]ackages/
+!/[Pp]ackages/manifest.json
+!/[Pp]ackages/packages-lock.json
+
+# Unity addressables cache
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/[Ll]ocal[Bb]uild[Tt]arget
+
+# Unity cloud build
+[Aa]ssets/[Aa]sset[Bb]undles/
+
+# Unity Sentis — compiled model cache (regenerated at runtime)
+Assets/Models/*.sentis
+Assets/Models/*.sentis.meta
+
+
+# ── Android Build Outputs ─────────────────────────────────────────────────────
+*.apk
+*.aab
+*.keystore
+# Gradle wrapper (large)
+*.gradle
+.gradle/
+gradle-wrapper.jar
+gradlew
+gradlew.bat
+local.properties
+
+
+# ── Google Colab / Drive ──────────────────────────────────────────────────────
+# Colab auto-saves; don't commit output cells with large base64 images
+# (strip outputs before committing notebooks if possible)
+# Drive credential files
+token.json
+credentials.json
+service_account.json
+
+
+# ── Debug Output / Logs ───────────────────────────────────────────────────────
+# SentisInferenceManager debug PNG saves
+*_0_RawInput.png
+*_1_Gray.png
+*_2_Median.png
+*_3_Binary.png
+*_4_Inverted.png
+*_5_LargestBlob.png
+*_6_Cropped.png
+*_7_Final64.png
+# Unity Player logs
+Player.log
+Editor.log
+
+
+# ── OS Junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.rider/

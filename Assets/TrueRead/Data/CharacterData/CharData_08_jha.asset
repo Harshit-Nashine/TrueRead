@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_08_jha
+  m_EditorClassIdentifier: 
+  modelIndex: 8
+  devanagariChar: "\u091D"
+  phoneticName: Jha
+  characterType: Consonant
+  word1Hindi: "\u091D\u0902\u0921\u093E"
+  word1Meaning: flag
+  word2Hindi: "\u091D\u0930\u0928\u093E"
+  word2Meaning: waterfall
+  charAudio: {fileID: 8300000, guid: d335b83f6769ee3499f5989e53fa652f, type: 3}
+  word1Audio: {fileID: 8300000, guid: 65675ae73b8bd5143929e4ae5252f2d5, type: 3}
+  word2Audio: {fileID: 8300000, guid: eb4bca02f5f5bcc45b00bd39df7a0286, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: f99504f06728f1647995559b08bd1c78,
+    type: 3}

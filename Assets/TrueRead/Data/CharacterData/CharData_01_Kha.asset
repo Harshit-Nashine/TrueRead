@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_01_Kha
+  m_EditorClassIdentifier: 
+  modelIndex: 1
+  devanagariChar: "\u0916"
+  phoneticName: Kha
+  characterType: Consonant
+  word1Hindi: "\u0916\u0930\u0917\u094B\u0936"
+  word1Meaning: pen
+  word2Hindi: "\u0916\u093F\u0932\u094C\u0928\u093E"
+  word2Meaning: Toy
+  charAudio: {fileID: 8300000, guid: c36f319db4c764b45987197ca3cfe156, type: 3}
+  word1Audio: {fileID: 8300000, guid: 080b2e63dfe469a479be061602a7420c, type: 3}
+  word2Audio: {fileID: 8300000, guid: 3b35a896c3d6db04787835986bb43cf1, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: 3ff0beb2cb186374f9ad7a50c4d17986,
+    type: 3}

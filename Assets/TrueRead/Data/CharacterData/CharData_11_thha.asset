@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_11_thha
+  m_EditorClassIdentifier: 
+  modelIndex: 11
+  devanagariChar: "\u0920"
+  phoneticName: Thaa
+  characterType: Consonant
+  word1Hindi: "\u0920\u0939\u0930\u0947\u0902"
+  word1Meaning: stop Sign
+  word2Hindi: "\u0920\u092A\u094D\u092A\u093E"
+  word2Meaning: stamp
+  charAudio: {fileID: 8300000, guid: 177d0bd160fe2864eb5db8ea8258fad4, type: 3}
+  word1Audio: {fileID: 8300000, guid: dedc325fd456fdf41aa0e967953b5bd7, type: 3}
+  word2Audio: {fileID: 0}
+  packagePrefab: {fileID: 7087123468538050278, guid: 587b35b6766dd87408a2d10b138697c8,
+    type: 3}

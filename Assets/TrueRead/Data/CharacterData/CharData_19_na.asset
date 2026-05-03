@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_19_na
+  m_EditorClassIdentifier: 
+  modelIndex: 19
+  devanagariChar: "\u0928"
+  phoneticName: Na
+  characterType: Consonant
+  word1Hindi: "\u0928\u093E\u0915"
+  word1Meaning: nose
+  word2Hindi: "\u0928\u0932"
+  word2Meaning: Tap
+  charAudio: {fileID: 8300000, guid: 59052d8dcc201394db5652742addbc8b, type: 3}
+  word1Audio: {fileID: 8300000, guid: a69dbb4727ab6fc40a686cf07b95b331, type: 3}
+  word2Audio: {fileID: 8300000, guid: c399f5356f3201c418c8acb393aae696, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: cc18930ec900800439ceed43e08b9610,
+    type: 3}

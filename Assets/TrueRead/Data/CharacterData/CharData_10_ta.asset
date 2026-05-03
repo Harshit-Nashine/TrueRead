@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_10_ta
+  m_EditorClassIdentifier: 
+  modelIndex: 10
+  devanagariChar: "\u091F"
+  phoneticName: Ta
+  characterType: Consonant
+  word1Hindi: "\u091F\u0949\u092B\u0940"
+  word1Meaning: toffee
+  word2Hindi: "\u091F\u094B\u092A\u0940"
+  word2Meaning: cap
+  charAudio: {fileID: 8300000, guid: 53de8cbb6f4fc724b9aa4c0c9869be38, type: 3}
+  word1Audio: {fileID: 8300000, guid: dc8175c507ed8bf41b23d306eda4e105, type: 3}
+  word2Audio: {fileID: 8300000, guid: d0d832c9a11b69140ab7a03da9e70a70, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: 2197bc886454d874bb19a76080e1206a,
+    type: 3}

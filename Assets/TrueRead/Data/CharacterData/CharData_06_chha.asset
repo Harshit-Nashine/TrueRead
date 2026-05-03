@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_06_chha
+  m_EditorClassIdentifier: 
+  modelIndex: 6
+  devanagariChar: "\u091B"
+  phoneticName: Chha
+  characterType: Consonant
+  word1Hindi: "\u091B\u0921\u093C\u0940"
+  word1Meaning: stick
+  word2Hindi: "\u091B\u093E\u0924\u093E"
+  word2Meaning: umbrella
+  charAudio: {fileID: 8300000, guid: 285c83fbac7cda44281a2f2e3c32a17f, type: 3}
+  word1Audio: {fileID: 8300000, guid: c278389254d265947920b4ac937eed2b, type: 3}
+  word2Audio: {fileID: 8300000, guid: b56541630ae4a2243b14595ef04b2142, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: b2c3cdf9a4218bf4cadf1ed50ff23b52,
+    type: 3}

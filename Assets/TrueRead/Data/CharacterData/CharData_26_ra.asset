@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_26_ra
+  m_EditorClassIdentifier: 
+  modelIndex: 26
+  devanagariChar: "\u0930"
+  phoneticName: Ra
+  characterType: Consonant
+  word1Hindi: "\u0930\u0941\u092E\u093E\u0932"
+  word1Meaning: hankerchief
+  word2Hindi: "\u0930\u0902\u0917"
+  word2Meaning: colors
+  charAudio: {fileID: 8300000, guid: 6259134c16b2bd146b0a7a8f86dc4363, type: 3}
+  word1Audio: {fileID: 8300000, guid: 5eed6ed2e34087a42992548facc6d963, type: 3}
+  word2Audio: {fileID: 8300000, guid: 6958c2cb20c5787469087e05b377a95e, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: d3793f3a5f908d24ca112de75482a114,
+    type: 3}

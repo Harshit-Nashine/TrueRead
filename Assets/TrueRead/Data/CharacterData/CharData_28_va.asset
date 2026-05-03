@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_28_va
+  m_EditorClassIdentifier: 
+  modelIndex: 28
+  devanagariChar: "\u0935"
+  phoneticName: Va
+  characterType: Consonant
+  word1Hindi: "\u0935\u0915\u094D\u0924"
+  word1Meaning: time
+  word2Hindi: "\u0935\u0930\u094D\u0937\u093E"
+  word2Meaning: rain
+  charAudio: {fileID: 8300000, guid: 1349621d080822d4eacfdf470cc6a53e, type: 3}
+  word1Audio: {fileID: 8300000, guid: a9f9f4c6079fed744843b4e80a088469, type: 3}
+  word2Audio: {fileID: 8300000, guid: e916a166be202474788a554d33a45a35, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: 990a11cf17a68f049ae156764523ffa7,
+    type: 3}

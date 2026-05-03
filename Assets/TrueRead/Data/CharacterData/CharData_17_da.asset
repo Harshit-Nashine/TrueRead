@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_17_da
+  m_EditorClassIdentifier: 
+  modelIndex: 17
+  devanagariChar: "\u0926"
+  phoneticName: Da
+  characterType: Consonant
+  word1Hindi: "\u0926\u0935\u093E\u0908"
+  word1Meaning: medicine
+  word2Hindi: "\u0926\u0930\u0935\u093E\u091C\u093E"
+  word2Meaning: door
+  charAudio: {fileID: 8300000, guid: bdde8ddd734e55a40a62d64f05f5aae1, type: 3}
+  word1Audio: {fileID: 8300000, guid: 46e407dc7b539a14ea38d644869fbd68, type: 3}
+  word2Audio: {fileID: 8300000, guid: 134a5dd854b4a4847a2cc97717250921, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: 937ea03ce314cf745a4be8e74a909636,
+    type: 3}

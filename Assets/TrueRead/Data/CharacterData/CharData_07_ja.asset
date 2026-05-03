@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_07_ja
+  m_EditorClassIdentifier: 
+  modelIndex: 7
+  devanagariChar: "\u091C"
+  phoneticName: Ja
+  characterType: Consonant
+  word1Hindi: "\u091C\u0939\u093E\u091C"
+  word1Meaning: ship
+  word2Hindi: "\u091C\u0942\u0924\u093E"
+  word2Meaning: shoes
+  charAudio: {fileID: 8300000, guid: da49159c1b19a2b4dadc9c24900ee79c, type: 3}
+  word1Audio: {fileID: 8300000, guid: ca326ded34197a14f94e0d9cac6461a2, type: 3}
+  word2Audio: {fileID: 8300000, guid: 21e79c079e312b449b3033b48f403aa7, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: e39749ab4a255c04ca7a96c9087e8a97,
+    type: 3}

@@ -1,0 +1,505 @@
+/*
+ * TrueRead Design System — USS Stylesheet
+ * Unity UI Toolkit
+ *
+ * TOKENS: Define once, use everywhere.
+ * Usage: .card { background-color: var(--color-surface); border-radius: var(--radius-card); }
+ */
+
+/* ─── Design Tokens (Root Variables) ───────────────────────── */
+:root {
+    /* Backgrounds */
+    --color-bg:        rgb(255, 255, 255);   /* Pure white page */
+    --color-surface:   rgb(248, 249, 250);   /* Card surface */
+    --color-surface-2: rgb(241, 245, 249);   /* Subtle nested bg */
+
+    /* Brand Colors */
+    --color-primary:       rgb(249, 115, 22);  /* Saffron orange */
+    --color-primary-light: rgb(255, 247, 237); /* Orange tint bg */
+    --color-primary-dark:  rgb(234, 88, 12);   /* Hover state */
+
+    /* Semantic */
+    --color-success:       rgb(34, 197, 94);
+    --color-success-light: rgb(240, 253, 244);
+    --color-error:         rgb(239, 68, 68);
+    --color-error-light:   rgb(254, 242, 242);
+    --color-navy:          rgb(30, 58, 95);    /* Primary text */
+    --color-muted:         rgb(100, 116, 139); /* Secondary text */
+    --color-border:        rgb(226, 232, 240);
+
+    /* Border Radius */
+    --radius-sm:   8px;
+    --radius-md:   12px;
+    --radius-card: 16px;
+    --radius-xl:   24px;
+    --radius-pill: 100px;
+
+    /* Spacing */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+
+    /* Typography — assign Poppins as primary font in your TMP settings */
+    --text-xs:    11px;
+    --text-sm:    13px;
+    --text-body:  15px;
+    --text-lg:    18px;
+    --text-xl:    22px;
+    --text-2xl:   28px;
+    --text-char:  72px; /* For Devanagari display characters */
+}
+
+/* ─── Base Reset ────────────────────────────────────────────── */
+VisualElement {
+    -unity-font-definition: none;
+}
+
+Label {
+    color: var(--color-navy);
+}
+
+/* ─── Screen / Page Container ───────────────────────────────── */
+.screen {
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: var(--color-bg);
+    padding: var(--space-md);
+}
+
+.screen-dark {
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: var(--color-navy);
+}
+
+/* ─── Card ──────────────────────────────────────────────────── */
+.card {
+    background-color: var(--color-surface);
+    border-radius: var(--radius-card);
+    border-width: 1px;
+    border-color: var(--color-border);
+    padding: var(--space-md);
+    margin-bottom: var(--space-sm);
+}
+
+.card-white {
+    background-color: var(--color-bg);
+    border-radius: var(--radius-card);
+    border-width: 1px;
+    border-color: var(--color-border);
+    padding: var(--space-md);
+    margin-bottom: var(--space-sm);
+}
+
+.card-navy {
+    background-color: var(--color-navy);
+    border-radius: var(--radius-xl);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-md);
+}
+
+.card-orange {
+    background-color: var(--color-primary-light);
+    border-radius: var(--radius-card);
+    border-width: 1.5px;
+    border-color: rgb(254, 215, 170);
+    padding: var(--space-md);
+    margin-bottom: var(--space-sm);
+}
+
+/* ─── Character Display Card (Quiz) ─────────────────────────── */
+.char-card {
+    background-color: var(--color-navy);
+    border-radius: var(--radius-xl);
+    padding: 28px var(--space-md);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--space-md);
+}
+
+.char-display {
+    font-size: var(--text-char);
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+}
+
+.char-prompt {
+    font-size: var(--text-sm);
+    color: rgba(255, 255, 255, 0.6);
+    -unity-text-align: middle-center;
+    margin-bottom: var(--space-md);
+}
+
+/* ─── Buttons ───────────────────────────────────────────────── */
+.btn {
+    border-radius: var(--radius-md);
+    height: 52px;
+    font-size: var(--text-body);
+    -unity-font-style: bold;
+    border-width: 0;
+    cursor: link;
+    transition-property: scale;
+    transition-duration: 0.1s;
+}
+
+.btn:active {
+    scale: 0.97 0.97;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: rgb(255, 255, 255);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-dark);
+}
+
+.btn-secondary {
+    background-color: var(--color-surface);
+    color: var(--color-navy);
+    border-width: 1.5px;
+    border-color: var(--color-border);
+}
+
+.btn-success {
+    background-color: var(--color-success-light);
+    color: rgb(22, 163, 74);
+    border-width: 0;
+}
+
+.btn-purple {
+    background-color: rgb(245, 243, 255);
+    color: rgb(124, 58, 237);
+    border-width: 0;
+}
+
+.btn-icon-back {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: rgb(255, 255, 255);
+    border-radius: var(--radius-sm);
+    width: 80px;
+    height: 36px;
+    font-size: var(--text-sm);
+}
+
+/* ─── Quiz Option Buttons ───────────────────────────────────── */
+.quiz-option {
+    background-color: var(--color-surface);
+    border-radius: var(--radius-card);
+    border-width: 1.5px;
+    border-color: var(--color-border);
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--text-body);
+    -unity-font-style: bold;
+    color: var(--color-navy);
+    cursor: link;
+    transition-property: background-color, border-color;
+    transition-duration: 0.15s;
+}
+
+.quiz-option:hover {
+    background-color: rgb(241, 245, 249);
+}
+
+.quiz-option--correct {
+    background-color: var(--color-success-light);
+    border-color: rgb(134, 239, 172);
+    color: rgb(22, 163, 74);
+}
+
+.quiz-option--wrong {
+    background-color: var(--color-error-light);
+    border-color: rgb(252, 165, 165);
+    color: var(--color-error);
+}
+
+.quiz-option--disabled {
+    opacity: 0.45;
+}
+
+/* ─── Quiz Options Grid ──────────────────────────────────────── */
+.quiz-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: var(--space-md);
+}
+
+.quiz-grid-item {
+    width: 48%;
+    margin: 1%;
+    height: 80px;
+}
+
+/* ─── Feedback Panel ─────────────────────────────────────────── */
+.feedback-correct {
+    background-color: var(--color-success-light);
+    border-radius: var(--radius-card);
+    border-width: 1.5px;
+    border-color: rgb(134, 239, 172);
+    padding: var(--space-md);
+    margin-bottom: var(--space-md);
+}
+
+.feedback-wrong {
+    background-color: var(--color-error-light);
+    border-radius: var(--radius-card);
+    border-width: 1.5px;
+    border-color: rgb(252, 165, 165);
+    padding: var(--space-md);
+    margin-bottom: var(--space-md);
+}
+
+.feedback-title-correct {
+    font-size: var(--text-lg);
+    -unity-font-style: bold;
+    color: rgb(22, 163, 74);
+}
+
+.feedback-title-wrong {
+    font-size: var(--text-lg);
+    -unity-font-style: bold;
+    color: var(--color-error);
+}
+
+/* ─── Progress Bar ───────────────────────────────────────────── */
+.progress-track {
+    background-color: var(--color-surface-2);
+    border-radius: var(--radius-pill);
+    height: 6px;
+    flex-grow: 1;
+}
+
+.progress-fill {
+    background-color: var(--color-primary);
+    border-radius: var(--radius-pill);
+    height: 6px;
+}
+
+.progress-fill-green {
+    background-color: var(--color-success);
+    border-radius: var(--radius-pill);
+    height: 8px;
+}
+
+/* ─── XP / Level Bar ─────────────────────────────────────────── */
+.xp-track {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: var(--radius-pill);
+    height: 8px;
+    margin-top: 10px;
+}
+
+.xp-fill {
+    background-color: var(--color-primary);
+    border-radius: var(--radius-pill);
+    height: 8px;
+}
+
+/* ─── Stat Cards (3-up in Stats scene) ──────────────────────── */
+.stat-card {
+    background-color: var(--color-surface);
+    border-radius: var(--radius-md);
+    border-width: 1px;
+    border-color: var(--color-border);
+    padding: 12px 10px;
+    align-items: center;
+    flex-grow: 1;
+    margin: 4px;
+}
+
+.stat-value {
+    font-size: var(--text-xl);
+    -unity-font-style: bold;
+    color: var(--color-navy);
+    -unity-text-align: middle-center;
+}
+
+.stat-label {
+    font-size: var(--text-xs);
+    color: var(--color-muted);
+    -unity-text-align: middle-center;
+    margin-top: 2px;
+}
+
+/* ─── Badge Cards ────────────────────────────────────────────── */
+.badge-card-unlocked {
+    background-color: rgb(255, 247, 237);
+    border-radius: var(--radius-md);
+    border-width: 1px;
+    border-color: rgb(254, 215, 170);
+    padding: 12px;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    margin: 4px;
+}
+
+.badge-card-locked {
+    background-color: var(--color-surface);
+    border-radius: var(--radius-md);
+    border-width: 1px;
+    border-color: var(--color-border);
+    padding: 12px;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    margin: 4px;
+    opacity: 0.5;
+}
+
+.badge-title-unlocked {
+    font-size: var(--text-sm);
+    -unity-font-style: bold;
+    color: var(--color-primary-dark);
+}
+
+.badge-title-locked {
+    font-size: var(--text-sm);
+    -unity-font-style: bold;
+    color: var(--color-navy);
+}
+
+/* ─── Streak Banner ──────────────────────────────────────────── */
+.streak-banner {
+    background-color: var(--color-primary-light);
+    border-radius: var(--radius-card);
+    border-width: 1.5px;
+    border-color: rgb(254, 215, 170);
+    padding: var(--space-md);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-md);
+}
+
+/* ─── Scan Scene ─────────────────────────────────────────────── */
+.scan-viewfinder {
+    border-width: 2px;
+    border-color: var(--color-primary);
+    border-radius: var(--radius-xl);
+    width: 240px;
+    height: 240px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.scan-bottom-sheet {
+    background-color: var(--color-bg);
+    border-top-left-radius: var(--radius-xl);
+    border-top-right-radius: var(--radius-xl);
+    padding: 20px var(--space-md) 32px;
+}
+
+/* ─── Typography Utilities ───────────────────────────────────── */
+.text-heading-1 {
+    font-size: var(--text-2xl);
+    -unity-font-style: bold;
+    color: var(--color-navy);
+}
+
+.text-heading-2 {
+    font-size: var(--text-xl);
+    -unity-font-style: bold;
+    color: var(--color-navy);
+}
+
+.text-heading-3 {
+    font-size: var(--text-lg);
+    -unity-font-style: bold;
+    color: var(--color-navy);
+}
+
+.text-body {
+    font-size: var(--text-body);
+    color: var(--color-navy);
+}
+
+.text-muted {
+    font-size: var(--text-sm);
+    color: var(--color-muted);
+}
+
+.text-white {
+    color: rgb(255, 255, 255);
+}
+
+.text-white-muted {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.text-orange {
+    color: var(--color-primary);
+}
+
+.text-orange-dark {
+    color: var(--color-primary-dark);
+}
+
+.text-success {
+    color: rgb(22, 163, 74);
+}
+
+.text-center {
+    -unity-text-align: middle-center;
+}
+
+/* ─── Chip / Badge ───────────────────────────────────────────── */
+.chip {
+    border-radius: var(--radius-pill);
+    padding: 4px 12px;
+    font-size: var(--text-xs);
+    -unity-font-style: bold;
+}
+
+.chip-orange {
+    background-color: var(--color-primary-light);
+    color: var(--color-primary-dark);
+}
+
+.chip-green {
+    background-color: var(--color-success-light);
+    color: rgb(22, 163, 74);
+}
+
+.chip-purple {
+    background-color: rgb(245, 243, 255);
+    color: rgb(124, 58, 237);
+}
+
+/* ─── Avatar Circle ──────────────────────────────────────────── */
+.avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: var(--radius-pill);
+    background-color: var(--color-primary);
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-text {
+    font-size: var(--text-lg);
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+}
+
+/* ─── Divider ────────────────────────────────────────────────── */
+.divider {
+    background-color: var(--color-border);
+    height: 1px;
+    margin-top: var(--space-md);
+    margin-bottom: var(--space-md);
+}
+
+/* ─── Spacer ─────────────────────────────────────────────────── */
+.spacer { flex-grow: 1; }
+.gap-sm  { margin-bottom: var(--space-sm); }
+.gap-md  { margin-bottom: var(--space-md); }
+.gap-lg  { margin-bottom: var(--space-lg); }

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_24_ma
+  m_EditorClassIdentifier: 
+  modelIndex: 24
+  devanagariChar: "\u092E"
+  phoneticName: Ma
+  characterType: Consonant
+  word1Hindi: "\u092E\u091B\u0932\u0940"
+  word1Meaning: fish
+  word2Hindi: "\u092E\u093F\u0930\u094D\u091A"
+  word2Meaning: chilli
+  charAudio: {fileID: 8300000, guid: 53309ce62b8f55b438a870ced92707a5, type: 3}
+  word1Audio: {fileID: 8300000, guid: 33d71f04469efc444bed3b059ab973c3, type: 3}
+  word2Audio: {fileID: 8300000, guid: ffa3538e1b14b934f91fac7e2c84865e, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: a9b816c6ccfd4d44b87e918da5d89837,
+    type: 3}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_02_ga
+  m_EditorClassIdentifier: 
+  modelIndex: 2
+  devanagariChar: "\u0917"
+  phoneticName: Ga
+  characterType: Consonant
+  word1Hindi: "\u0917\u093E\u0921\u093C\u0940"
+  word1Meaning: car
+  word2Hindi: "\u0917\u0947\u0902\u0926"
+  word2Meaning: ball
+  charAudio: {fileID: 8300000, guid: 2d2d0c0bb2c77a44996db9d2d7f065cb, type: 3}
+  word1Audio: {fileID: 8300000, guid: f0ed49246aff47d48bbc1b7f606aebc7, type: 3}
+  word2Audio: {fileID: 8300000, guid: dbeea34db5332da47a3b84439ff4e9a4, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: 80a7fe929d687f7468c17cbf442e4fb8,
+    type: 3}

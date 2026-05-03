@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9879304c2c6f7dd4d97447b360cf466b, type: 3}
+  m_Name: CharData_15_talwar
+  m_EditorClassIdentifier: 
+  modelIndex: 15
+  devanagariChar: "\u0924"
+  phoneticName: Ta
+  characterType: Consonant
+  word1Hindi: "\u0924\u0932\u0935\u093E\u0930"
+  word1Meaning: sword
+  word2Hindi: "\u0924\u093F\u0924\u0932\u0940"
+  word2Meaning: butterfly
+  charAudio: {fileID: 8300000, guid: 62e8e89345e90ab4a80e311312fdb8a1, type: 3}
+  word1Audio: {fileID: 8300000, guid: 4b92ff86be659d24c91942ad4b5da567, type: 3}
+  word2Audio: {fileID: 8300000, guid: 2c8310ea6ed47ab44904763873868c54, type: 3}
+  packagePrefab: {fileID: 7087123468538050278, guid: acb66a3de3741464a936e9162bca5542,
+    type: 3}

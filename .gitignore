@@ -1,0 +1,24 @@
+[Ll]ibrary/ 
+[Tt]emp/ 
+[Oo]bj/ 
+[Bb]uild/ 
+[Bb]uilds/ 
+[Ll]ogs/ 
+[Uu]ser[Ss]ettings/ 
+.plastic/ 
+*.apk 
+*.aab 
+*.onnx 
+*.tflite 
+*.fbx 
+Assets/TextMesh Pro/ 
+Assets/Plugins/ 
+TrueRead_BurstDebugInformation_DoNotShip/ 
+*_0_RawInput.png 
+*_1_Gray.png 
+*_2_Median.png 
+*_3_Binary.png 
+*_4_Inverted.png 
+*_5_LargestBlob.png 
+*_6_Cropped.png 
+*_7_Final64.png
